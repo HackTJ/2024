@@ -10,7 +10,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: '/2023'
+			base: '/2024'
 		},
 		prerender: {
 			default: true
