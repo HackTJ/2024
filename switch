@@ -4,7 +4,7 @@ if [ "$1" == "event" ]; then
   sed "s|<title>HackTJ</title>|<title>HackTJ 11.0</title>|" src/app.html > src/app.$$.html && mv src/app.$$.html src/app.html
 
   rm -f static/CNAME
-  git remote set-url origin git@github.com:HackTJ/2023.git
+  git remote set-url origin git@github.com:HackTJ/2024.git
 elif [ "$1" == "homepage" ]; then
   sed "s|base: '/2024'|base: ''|" svelte.config.js > svelte.config.$$.js && mv svelte.config.$$.js svelte.config.js
   sed "s|<title>HackTJ 11.0</title>|<title>HackTJ</title>|" src/app.html > src/app.$$.html && mv src/app.$$.html src/app.html
