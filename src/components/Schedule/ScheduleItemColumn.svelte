@@ -18,7 +18,7 @@
 	<div class="block max-w-full flex flex-col xl:flex-row items-center mt-4 space-x-8 min-h-[125px]">
 		<div class="flex flex-row flex-none items-center w-16">
 			<div class="justify-center text-center shrink-0 {!cardData.length ? 'opacity-50' : ''}">
-				<p class="m-auto text-2xl font-bold {isActive ? 'text-theme-100' : 'text-spruce-200'}">
+				<p class="m-auto text-2xl font-bold {isActive ? 'text-theme-100' : 'text-blueberry-200'}">
 					{hour}
 				</p>
 			</div>

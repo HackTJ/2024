@@ -51,19 +51,19 @@
 			<div class="text-white font-bold text-6xl md:text-8xl">
 				HackTJ
 				<!-- TODO: `Overpass Mono`: -->
-				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">10.0</sup>
+				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">11.0</sup>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
-				<span class="text-theme-100 font-bold">March 4-5, Cvent</span>
-				<br />
+				<!-- <span class="text-theme-100 font-bold">March 4-5, Cvent</span>
+				<br /> -->
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
 			<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
-				<a
+				<!-- <a
 					href="{base}/register"
 					class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 					>&emsp;Register&emsp;</a
-				>
+				> -->
 				<a
 					href="{base}/schedule"
 					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
@@ -153,8 +153,8 @@
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
 				class="underline text-theme-100 hover:text-theme-200"
-				href="{base}/sponsorship10.0.pdf"
-				target="_blank">10.0 sponsorship packet</a
+				href="{base}/sponsorship11_0.pdf"
+				target="_blank">11.0 sponsorship packet</a
 			>
 			or email us at
 			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org"

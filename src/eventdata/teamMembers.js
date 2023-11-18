@@ -4,83 +4,145 @@
 
 import { base } from '$app/paths';
 
-export default [
-	{
-		name: 'Simrith Ranjan',
-		description:
-			'Simrith is the director for HackTJ X. She is a senior at TJHSST. This year is her second year on the HackTJ team. She loves to explore the real world applications of computer science in  fields like neuroscience, communications, and business. Outside of HackTJ, she is an active member of many clubs at TJ such as StudentsvsCancer, student government, and Spanish Honor Society. She is part of the TJ track and field team and TJ field hockey. In her free time, Simrith loves to run, practice Bollywood dance, and binge shows on Netflix.',
-		portraitSrc: `${base}/teamportraits/SimrithRanjan.JPG`
-	},
-	{
-		name: 'Taein Kim',
-		description:
-			'Taein is a senior at TJ, and this is his second year on the HackTJ team. He was inspired by the amount of creativity in HackTJ 7.5 and decided to join the crew; this year, he is the assistant director of HackTJ X. Taein holds interest in competitive programming, machine learning, and math; outside of HackTJ, he is a member of the TJ Varsity Math Team and Senior Computer Team. Some of his hobbies are listening to music, playing basketball, or swimming in the local RECenter.',
-		portraitSrc: `${base}/teamportraits/TaeinKim.JPG`
-	},
-	{
-		name: 'Tanmai Kalisipudi',
-		description:
-			'Tanmai is a senior at TJHSST and this is his first year on the HackTJ team. He loves exploring the fields of computer science and business, especially full stack development and ML in quant finance, and enjoys pursuing projects such as creating a trading algorithm or websites for clients. Outside of HackTJ, he is an active member of Model UN and is the VP of TJ’s Investment Club. In his free time, he likes watching football and basketball (go Seahawks!) and playing video games.',
-		portraitSrc: `${base}/teamportraits/TanmaiKalisipudi.JPG`
-	},
+let teamMembers = [
 	{
 		name: 'Ananya Pamal',
+		class: '2024',
+		years: 3,
+		director: true,
 		description:
-			'Ananya is a junior at TJHSST and this is her second year on the HackTJ team. She is fascinated by machine learning and its applications in data analysis. She is also passionate about aerospace and engineering. Outside of HackTJ, Ananya participates in clubs/programs such as FTC robotics, Spanish Honor Society, and UAV. She also loves reading, dancing, and baking.',
-		portraitSrc: `${base}/teamportraits/AnanyaPamal.JPG`
-	},
-	{
-		name: 'Krishnan Shankar',
-		description:
-			'Krishnan is a junior at TJHSST, and this is his second year on the HackTJ team. He got inspired to join the team after attending HackTJ multiple times, and really wants to contribute to help make it an amazing experience for everyone! Krishnan is very interested in programming, specifically with full-stack websites and games using languages like Python and JavaScript. Outside of HackTJ, he is a student sysadmin at TJ and the programming lead at TJUAV. In his free time, he likes to bike, swim, and play chess with his friends.',
-		portraitSrc: `${base}/teamportraits/KrishnanShankar.JPG`
+			'As a senior, Ananya is excited to be the Director of HackTJ 11.0! This is her third (and a half) year being on the HackTJ team, and she enjoys computer science and physics. She is fascinated by machine learning and its applications in data analysis. Outside of HackTJ, Ananya participates in clubs/programs such as FTC, Spanish Honor Society, and UAV. In her free time, she likes to bake, listen to music, and do pilates.',
+		portraitSrc: `${base}/teamportraits/Ananya.JPG`
 	},
 	{
 		name: 'Lindsay Hwang',
+		class: '2024',
+		years: 3,
+		director: true,
 		description:
-			'Lindsay is on the HackTJ team for the second year and is currently a junior at TJHSST. She is very passionate in computer science and AI, as well as the engineering field. Other clubs that she is involved in is Women in Engineering, Academic Decathlon, and Spanish Honor Society, and is part of the TJ track as well as TJ lacrosse. For her hobbies, she enjoys singing, learning robotics, and watching TV shows.',
-		portraitSrc: `${base}/teamportraits/LindsayHwang.JPG`
+			'Lindsay is the Director of HackTJ. She’s a senior at TJHSST and this is her third (and a half) year being on the HackTJ team after competing in HackTJ 7.5 and 8.0. Lindsay is passionate about computer science, especially ML and CV, and math. At TJ, she’s involved in TSA, FTC, Academic Decathlon, and Spanish Honor Society. Outside of school, Lindsay enjoys figure skating, playing lacrosse, and listening to Taylor Swift’s entire discography.',
+		portraitSrc: `${base}/teamportraits/Lindsay.JPG`
+	},
+	{
+		name: 'Krishnan Shankar',
+		class: '2024',
+		years: 3,
+		director: false,
+		description:
+			'Krishnan is a senior at TJHSST, and this is his third year on the HackTJ team. He got inspired to join the team after attending HackTJ multiple times, and really wants to contribute to help make it an amazing experience for everyone! Krishnan is fascinating with programming, specifically with full-stack websites and games using languages like Python and JavaScript. Outside of HackTJ, he is a lead sysadmin at TJ and the club president for TJUAV. In his free time, he likes to bike, swim, and play chess with his friends.',
+		portraitSrc: `${base}/teamportraits/Krishnan.JPG`
 	},
 	{
 		name: 'Vidhi Sharma',
+		class: '2024',
+		years: 3,
+		director: false,
 		description:
-			'Vidhi is a junior at TJ, and this is her second year on the Hack TJ team after having an amazing time competing during her freshman year. She is interested in CS and biology, and loves all the connections between the two fields. She is a member of TJ HOSA, FPS, and USABO. She also partakes in the TJ basketball and theater programs. Outside of school, Vidhi loves playing the guitar and spending time outdoors.',
-		portraitSrc: `${base}/teamportraits/VidhiSharma.JPG`
+			'Vidhi is a senior at TJHSST, and she is so excited for her third year on the HackTJ team after competing her freshman year! Vidhi is passionate about the intersection between computer science and biology, and hopes to go into the medical field in the future. She is a part of HOSA, TSA, and Challenge Success. Outside of school, she loves to sing, listen to music, and spend time with her family and friends.',
+		portraitSrc: `${base}/teamportraits/Vidhi.JPG`
 	},
 	{
 		name: 'Pooja Somayajula',
-		description:
-			'Pooja is a junior at TJHSST and this is her first year on the HackTJ team. She has an avid interest in machine learning and mobile/web app development, and is looking to pursue computer science in the future. She is also passionate about Marine Science, and hopes to work with both aquatic life and artificial intelligence after college. She is a member of Rotary, Future Voters, and the Underwater ROV team. In her free time she enjoys listening to music and watching TV.',
-		portraitSrc: `${base}/teamportraits/PoojaSomayajula.JPG`
+		class: '2024',
+		years: 2,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/Pooja.JPG`,
+		hidden: true
 	},
 	{
 		name: 'Sanika Kale',
-		description:
-			'Sanika is a Junior at TJHSST who has participated in HackTJ and other hackathons. She is passionate about connecting her interests, like neuroscience, with computer science to create projects for social good. Sanika shares her love of STEM by volunteering at local shelters and tutoring underprivileged kids. Outside of HackTJ, she is an officer of Psychology society and spends her free time playing volleyball, dancing to Bollywood songs, and watching Netflix shows.',
-		portraitSrc: `${base}/teamportraits/SanikaKale.JPG`
+		class: '2024',
+		years: 2,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/Sanika.JPG`,
+		hidden: true
 	},
 	{
 		name: 'Avni Garg',
-		description:
-			'Avni is a sophomore at TJHSST and this is her first year on the HackTJ team after competing freshman year. She loves computer science and artificial intelligence, as well as competition math. Other than HackTJ, Avni is very involved in TJ’s Varsity Math Team, Lincoln-Douglas Debate, and the computing teams. In her free time loves to play with her sister, dance, and play piano.',
-		portraitSrc: `${base}/teamportraits/AvniGarg.JPG`
+		class: '2025',
+		years: 2,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/Avni.JPG`,
+		hidden: true
 	},
 	{
 		name: 'Saanvi Indukuri',
+		class: '2025',
+		years: 2,
+		director: false,
 		description:
-			'Saanvi is on the HackTJ team, and is a sophomore at TJHSST. She enjoys connecting CS to other subjects she loves, such as engineering, astronomy and biology. She also is an active member of Red Cross, Team Tiny House, enjoys attending Astronomy, and competes in Future Problem Solving. She also is passionate about playing sports, as she plays both TJ field hockey and TJ lacrosse. In her free time, she loves to bake, read, and watch TV.',
-		portraitSrc: `${base}/teamportraits/SaanviIndukuri.JPG`
+			'Saanvi is a junior at TJHSST, and she’s excited for her second year on the team. She loves seeing how computer science brings to life so many ideas and ties together to other fields she loves such as biology and astronomy. Other than HackTJ, Saanvi is also involved in Astronomy Club, FPS, Red Cross YTF, and she plays field hockey and lacrosse for TJ.  Outside of school, she loves to read, watch lots and lots of TV, and cook.',
+		portraitSrc: `${base}/teamportraits/Saanvi.JPG`
 	},
 	{
 		name: 'Samvrit Rao',
+		class: '2025',
+		years: 2,
+		director: false,
 		description:
-			'Samvrit is a sophomore at TJHSST and this is his first year on the HackTJ team. He is keenly interested in using data science to pursue projects that make an impact on people’s lives. His passion for science analytics has led him to pursue translational projects related to infectious diseases and cancer. Outside of HackTJ, he is an avid member of TJHSST TSA, TJ Public Forum Debate, and runs a summer STEM program for elementary school kids. He loves the Seattle Seahawks Football team and is a world geography enthusiast.',
-		portraitSrc: `${base}/teamportraits/SamvritRao.JPG`
+			'Samvrit is a junior at TJHSST and this is his second year on the HackTJ team and he joined after competing in freshman year. He is passionate about the intersection of computer science and biology and likes to pursue translational projects related to infectious and neurological diseases. Along with Hack TJ, he is an avid member of clubs such as TSA, TJ Speech, and German Honor Society.Outside of school he runs a summer stem program for elementary and middle school kids. In his free time, he likes to read, play basketball, and listen to the newest rap album.',
+		portraitSrc: `${base}/teamportraits/Samvrit.JPG`
 	},
 	{
-		name: 'Ms. Razzino',
+		name: 'Pratyasa Sinha',
+		class: '2025',
+		years: 1,
+		director: false,
 		description:
-			'Ms. Razzino is a Math Teacher at TJ and also the faculty sponsor of HackTJ. She was the Division Manager for Math and Computer Science at TJ for 5 years and gained an understanding and appreciation for computer science during that time. She also attended TJ back in the late 1990s and fondly remembers her Foundations of CS class. When not creating tests and grading papers, Ms. Razzino enjoys baking, skiing, travelling, and spending time with family and friends.',
-		portraitSrc: `${base}/teamportraits/MsRazzino.JPG`
+			'Pratyasa is a junior at TJHSST, and this is her first year on the team after competing in sophomore year! She loves how computer science can be used to innovate and solve problems in different fields, such as medicine and biology. Outside of HackTJ, Pratyasa is involved in FPS and Red Cross YTF. In her free time, she loves to read, bake (especially cookies), and listen to music.',
+		portraitSrc: `${base}/teamportraits/Pratyasa.JPG`
+	},
+	{
+		name: 'Kunal Bham',
+		class: '2024',
+		years: 1,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/Kunal.JPG`,
+		hidden: true
+	},
+	{
+		name: 'Aanya Gupta',
+		class: '2026',
+		years: 1,
+		director: false,
+		description:
+			'Aanya is a sophomore at TJHSST, and this is her first year on the team after competing in HackTJ 10.0! She enjoys finding ways to bridge gaps between computer science and biology, solving problems that impact social good. Outside of HackTJ, she is an active participant in the Bioinformatics club, Teknos, and Coding Lady Colonials! In her free time, she enjoys baking for her friends, listening to music, and rock climbing.',
+		portraitSrc: `${base}/teamportraits/Aanya.JPG`
+	},
+	{
+		name: 'Mr. Hannum',
+		class: 'sponsor',
+		years: 0,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/MrHannum.JPG`
+	},
+	{
+		name: 'Mr. Kosek',
+		class: 'sponsor',
+		years: 0,
+		director: false,
+		description: '',
+		portraitSrc: `${base}/teamportraits/MrKosek.JPG`
 	}
 ];
+
+teamMembers = teamMembers.filter((member) => !member.hidden);
+teamMembers.sort((a, b) => {
+	const ad = a.director ? 1 : 0;
+	const bd = b.director ? 1 : 0;
+	const ay = a.years;
+	const by = b.years;
+	const ac = a.class;
+	const bc = b.class;
+	const an = a.name;
+	const bn = b.name;
+	// Sort by director?, then by years on the team, then by class, then by first name
+	return bd - ad || by - ay || ac.localeCompare(bc) || an.localeCompare(bn);
+});
+
+export default teamMembers;

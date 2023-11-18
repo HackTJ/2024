@@ -11,13 +11,13 @@
 		<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
 		<h1 class="text-5xl font-black text-white mt-8 mb-2">Registration</h1>
 		<p>
-			<!-- Registration will open on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023 at 11:59
-			pm EST. All attendees must adhere to the -->
+			Registration will open on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023
+			at 11:59 pm EST. All attendees must adhere to the
 			<!-- Registration opened on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023 at 11:59
 			pm EST. All attendees must adhere to the -->
-			Registration for participants closed on February 11, 2023 at 11:59 pm EST. You may still register
+			<!-- Registration for participants closed on February 11, 2023 at 11:59 pm EST. You may still register
 			to be a mentor, judge, volunteer, photographer, or workshop host. All attendees must adhere to
-			the
+			the -->
 			<a
 				class="text-theme-100 hover:text-theme-200 underline"
 				href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
@@ -32,7 +32,6 @@
 				title="Participant"
 				link="https://forms.gle/sayeNtjrL95pk9647"
 				linkText="Participant Registration"
-				closed
 			>
 				<p>
 					Participants must be current high school students attending Fairfax County Public Schools.

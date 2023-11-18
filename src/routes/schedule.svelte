@@ -45,7 +45,9 @@
 		<div class="px-8 md:px-12 pt-8 md:pt-12">
 			<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
 			<h1 class="pt-8 md:pt-8 text-5xl font-black text-white">Schedule</h1>
-			<div class="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 mt-4">
+			<br />
+			<h2 class="text-2xl font-bold text-theme-100">Coming Soon!</h2>
+			<!-- <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 space-y-4 md:space-y-0 mt-4">
 				{#each Object.keys(cardData) as date, i}
 					<button
 						on:click={() => {
@@ -56,13 +58,13 @@
 							: inactiveButtonClass}">{date}</button
 					>
 				{/each}
-			</div>
+			</div> -->
 		</div>
-		<div class="text-blueberry-200 p-8 md:p-12">
+		<!-- <div class="text-blueberry-200 p-8 md:p-12">
 			{#each hourlyData as { data, columnTime }}
 				<ScheduleItemColumn cardData={data} {columnTime} />
 			{/each}
-		</div>
+		</div> -->
 	</div>
 	<Footer />
 </section>
