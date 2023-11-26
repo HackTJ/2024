@@ -64,9 +64,9 @@ let teamMembers = [
 		class: '2025',
 		years: 2,
 		director: false,
-		description: '',
-		portraitSrc: `${base}/teamportraits/Avni.JPG`,
-		hidden: true
+		description:
+			'Avni is a junior at TJHSST, and this is her second year on the team after competing freshman year in HackTJ 9.0! She hopes to make HackTJ a memorable experience for everyone. Avni enjoys math and computer science, especially in the fields of AI and ML. Aside from HackTJ, she is also part of the Varsity Math Team and Computer Team. In her free time, she likes to bike, read, and play card games.',
+		portraitSrc: `${base}/teamportraits/Avni.JPG`
 	},
 	{
 		name: 'Saanvi Indukuri',
