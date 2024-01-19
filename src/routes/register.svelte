@@ -11,8 +11,8 @@
 		<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
 		<h1 class="text-5xl font-black text-white mt-8 mb-2">Registration</h1>
 		<p>
-			Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024
-			at 11:59 pm EST. All attendees must adhere to the
+			Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on
+			February 3, 2024 at 11:59 pm EST. All attendees must adhere to the
 			<!-- Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
 			pm EST. All attendees must adhere to the -->
 			<!-- Registration for participants closed on February 3, 2024 at 11:59 pm EST. You may still register
@@ -28,12 +28,7 @@
 		<div
 			class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-12 mt-4 h-full grow"
 		>
-			<RegistrationColumn
-				title="Participant"
-				link=""
-				linkText="Participant Registration"
-				disabled
-			>
+			<RegistrationColumn title="Participant" link="" linkText="Participant Registration" disabled>
 				<p>
 					Participants must be current high school students attending Fairfax County Public Schools.
 					Computer science and engineering experience is not necessary, as we&#39;ll have workshops
@@ -45,12 +40,7 @@
 					decisions will be made based on a variety of factors including the date/time you register.
 				</p>
 			</RegistrationColumn>
-			<RegistrationColumn
-				title="Volunteer"
-				link=""
-				linkText="Volunteer Registration"
-				disabled
-			>
+			<RegistrationColumn title="Volunteer" link="" linkText="Volunteer Registration" disabled>
 				<p>
 					Volunteers help with various tasks during the hackathon, such as checking in participants,
 					setting up food, and more. Computer science and engineering experience is not required.
@@ -82,8 +72,8 @@
 				<p>
 					Workshop Hosts hold a session on a CS topic of their liking, providing participants a
 					lesson on the topic and resources to learn more. These workshops will be conducted on
-					Saturday, February 24 from 2pm to 6pm. Hosting a workshop comes with perks like free food and
-					service hours!
+					Saturday, February 24 from 2pm to 6pm. Hosting a workshop comes with perks like free food
+					and service hours!
 				</p>
 				<br />
 				<p>
