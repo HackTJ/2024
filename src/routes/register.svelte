@@ -11,11 +11,11 @@
 		<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
 		<h1 class="text-5xl font-black text-white mt-8 mb-2">Registration</h1>
 		<p>
-			Registration will open on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023
+			Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024
 			at 11:59 pm EST. All attendees must adhere to the
-			<!-- Registration opened on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023 at 11:59
+			<!-- Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
 			pm EST. All attendees must adhere to the -->
-			<!-- Registration for participants closed on February 11, 2023 at 11:59 pm EST. You may still register
+			<!-- Registration for participants closed on February 3, 2024 at 11:59 pm EST. You may still register
 			to be a mentor, judge, volunteer, photographer, or workshop host. All attendees must adhere to
 			the -->
 			<a
@@ -30,8 +30,9 @@
 		>
 			<RegistrationColumn
 				title="Participant"
-				link="https://forms.gle/sayeNtjrL95pk9647"
+				link=""
 				linkText="Participant Registration"
+				disabled
 			>
 				<p>
 					Participants must be current high school students attending Fairfax County Public Schools.
@@ -45,9 +46,21 @@
 				</p>
 			</RegistrationColumn>
 			<RegistrationColumn
-				title="Mentor/Judge/Volunteer"
-				link="https://forms.gle/xWHgwG6qZ4eUFtRt8"
-				linkText="Mentor/Judge/Volunteer Registration"
+				title="Volunteer"
+				link=""
+				linkText="Volunteer Registration"
+				disabled
+			>
+				<p>
+					Volunteers help with various tasks during the hackathon, such as checking in participants,
+					setting up food, and more. Computer science and engineering experience is not required.
+				</p>
+			</RegistrationColumn>
+			<RegistrationColumn
+				title="Mentor/Judge"
+				link=""
+				linkText="Mentor/Judge Registration"
+				disabled
 			>
 				<p>
 					Judges must be present during the entire judging process (9:00 a.m. to 11:00 a.m. on
@@ -59,16 +72,30 @@
 					Mentors help students if they have any technical questions, and don't have to be present
 					the entire time. Computer science and engineering experience is required.
 				</p>
+			</RegistrationColumn>
+			<RegistrationColumn
+				title="Workshop Host"
+				link=""
+				linkText="Workshop Host Registration"
+				disabled
+			>
+				<p>
+					Workshop Hosts hold a session on a CS topic of their liking, providing participants a
+					lesson on the topic and resources to learn more. These workshops will be conducted on
+					Saturday, February 24 from 2pm to 6pm. Hosting a workshop comes with perks like free food and
+					service hours!
+				</p>
 				<br />
 				<p>
-					Volunteers help with various tasks during the hackathon, such as checking in participants,
-					setting up food, and more. Computer science and engineering experience is not required.
+					Because of county regulations, workshop hosts who are not HackTJ participants must leave
+					by 10pm on Saturday, February 24.
 				</p>
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Photographer"
-				link="https://forms.gle/KECuXisAGB9JHjts8"
+				link=""
 				linkText="Photographer Registration"
+				disabled
 			>
 				<p>
 					Photographers are only needed for 2 hours at a time (aside from the 2.5 hr shift on
@@ -78,24 +105,7 @@
 				<p>
 					Because of county regulations, only photographers who are part of Fairfax County Public
 					Schools will be able to sign up. Additionally, only HackTJ participants can sign up for
-					shifts after 10pm on Saturday, March 4.
-				</p>
-			</RegistrationColumn>
-			<RegistrationColumn
-				title="Workshop Host"
-				link="https://forms.gle/Wo4vWJrW59CqQg5M9"
-				linkText="Workshop Host Registration"
-			>
-				<p>
-					Workshop Hosts hold a session on a CS topic of their liking, providing participants a
-					lesson on the topic and resources to learn more. These workshops will be conducted on
-					Saturday, March 4 from 2pm to 6pm. Hosting a workshop comes with perks like free food and
-					service hours!
-				</p>
-				<br />
-				<p>
-					Because of county regulations, workshop hosts who are not HackTJ participants must leave
-					by 10pm on Saturday, March 4.
+					shifts after 10pm on Saturday, February 24.
 				</p>
 			</RegistrationColumn>
 		</div>
