@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-077aa76e.js",
+    "file": "_app/immutable/start-30f03dff.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -39,7 +39,7 @@
     ]
   },
   "src/routes/faq.svelte": {
-    "file": "_app/immutable/pages/faq.svelte-518d6f44.js",
+    "file": "_app/immutable/pages/faq.svelte-3b4c205d.js",
     "src": "src/routes/faq.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
