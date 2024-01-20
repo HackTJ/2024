@@ -19,7 +19,7 @@ export default [
 	},
 	{
 		question: 'When is HackTJ?',
-		answer: 'HackTJ will start on Saturday, March 4 and run until Sunday, March 5.'
+		answer: 'HackTJ will start on Saturday, February 24 and run until Sunday, February 25.'
 	},
 	{
 		question: 'Who can attend?',
