@@ -59,6 +59,6 @@ export default [
 	{
 		question: 'How are ticket decisions made?',
 		answer:
-			'Tickets decisions are made based on a variety of factors, including the registration time. Sign up quickly to increase the chance that you are given a HackTJ 10.0 ticket!'
+			'Tickets decisions are made based on a variety of factors, including the registration time. Sign up quickly to increase the chance that you are given a HackTJ 11.0 ticket!'
 	}
 ];
