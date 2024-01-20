@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-a8d2678c.js",
+    "file": "_app/immutable/start-4e383e05.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -39,7 +39,7 @@
     ]
   },
   "src/routes/faq.svelte": {
-    "file": "_app/immutable/pages/faq.svelte-8b2f50b8.js",
+    "file": "_app/immutable/pages/faq.svelte-41e35bca.js",
     "src": "src/routes/faq.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -67,7 +67,7 @@
     ]
   },
   "src/routes/register.svelte": {
-    "file": "_app/immutable/pages/register.svelte-5c4ea2db.js",
+    "file": "_app/immutable/pages/register.svelte-d224ee58.js",
     "src": "src/routes/register.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
