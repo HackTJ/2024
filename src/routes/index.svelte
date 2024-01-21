@@ -70,11 +70,11 @@
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
 			<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
-				<!-- <a
+				<a
 					href="{base}/register"
 					class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 					>&emsp;Register&emsp;</a
-				> -->
+				>
 				<a
 					href="{base}/schedule"
 					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"

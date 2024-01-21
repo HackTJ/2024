@@ -11,10 +11,10 @@
 		<a href="{base}/"><Home width="32px" class="text-theme-100 hover:text-theme-200" /></a>
 		<h1 class="text-5xl font-black text-white mt-8 mb-2">Registration</h1>
 		<p>
-			Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on
-			February 3, 2024 at 11:59 pm EST. All attendees must adhere to the
-			<!-- Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
-			pm EST. All attendees must adhere to the -->
+			<!-- Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on
+			February 3, 2024 at 11:59 pm EST. All attendees must adhere to the -->
+			Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
+			pm EST. All attendees must adhere to the
 			<!-- Registration for participants closed on February 3, 2024 at 11:59 pm EST. You may still register
 			to be a mentor, judge, volunteer, photographer, or workshop host. All attendees must adhere to
 			the -->
@@ -28,7 +28,11 @@
 		<div
 			class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-12 mt-4 h-full grow"
 		>
-			<RegistrationColumn title="Participant" link="" linkText="Participant Registration" disabled>
+			<RegistrationColumn
+				title="Participant"
+				link="https://forms.gle/8CZHKSg2csL9ufEh6"
+				linkText="Participant Registration"
+			>
 				<p>
 					Participants must be current high school students attending Fairfax County Public Schools.
 					Computer science and engineering experience is not necessary, as we&#39;ll have workshops
@@ -40,7 +44,11 @@
 					decisions will be made based on a variety of factors including the date/time you register.
 				</p>
 			</RegistrationColumn>
-			<RegistrationColumn title="Volunteer" link="" linkText="Volunteer Registration" disabled>
+			<RegistrationColumn
+				title="Volunteer"
+				link="https://forms.gle/ENJXZwLcp58fzZxbA"
+				linkText="Volunteer Registration"
+			>
 				<p>
 					Volunteers help with various tasks during the hackathon, such as checking in participants,
 					setting up food, and more. Computer science and engineering experience is not required.
@@ -48,9 +56,8 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Mentor/Judge"
-				link=""
+				link="https://forms.gle/vCxvt3tuCYoptUF76"
 				linkText="Mentor/Judge Registration"
-				disabled
 			>
 				<p>
 					Judges must be present during the entire judging process (9:00 a.m. to 11:00 a.m. on
@@ -65,9 +72,8 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Workshop Host"
-				link=""
+				link="https://forms.gle/YqTw3Ng21dxeiMk5A"
 				linkText="Workshop Host Registration"
-				disabled
 			>
 				<p>
 					Workshop Hosts hold a session on a CS topic of their liking, providing participants a
@@ -83,9 +89,8 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Photographer"
-				link=""
+				link="https://forms.gle/BYahZGAbYFdveiU18"
 				linkText="Photographer Registration"
-				disabled
 			>
 				<p>
 					Photographers are only needed for 2 hours at a time (aside from the 2.5 hr shift on
