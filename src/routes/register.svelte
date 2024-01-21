@@ -34,9 +34,9 @@
 				linkText="Participant Registration"
 			>
 				<p>
-					Participants must be current high school students attending Fairfax County Public Schools.
-					Computer science and engineering experience is not necessary, as we&#39;ll have workshops
-					and mentors so you can learn.
+					Participants must be current high school students in Northern Virginia. Computer science
+					and engineering experience is not necessary, as we&#39;ll have workshops and mentors so
+					you can learn.
 				</p>
 				<br />
 				<p>
