@@ -1,6 +1,6 @@
 # HackTJ 11.0
 
-[![lint](https://github.com/HackTJ/2024/workflows/lint/badge.svg?event=push)](https://github.com/HackTJ/2024/actions?query=workflow%3Alint)
+[![lint](https://github.com/HackTJ/2024/workflows/lint/badge.svg)](https://github.com/HackTJ/2024/actions?query=workflow%3Alint)
 
 The website for HackTJ 11.0.
 
