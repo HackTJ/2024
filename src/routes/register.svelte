@@ -46,7 +46,7 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Volunteer"
-				link="https://forms.gle/ENJXZwLcp58fzZxbA"
+				link="https://www.signupgenius.com/go/70A0F49A8AD22AAF58-47414114-hacktj"
 				linkText="Volunteer Registration"
 			>
 				<p>
