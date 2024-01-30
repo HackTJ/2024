@@ -5,18 +5,12 @@
 import { base } from '$app/paths';
 
 const sponsors = {
-	platinum: [
+	platinum: [],
+	gold: [
 		{
 			src: `${base}/sponsorlogos/roam.png`,
 			alt: 'Roam Logo',
 			href: 'https://ro.am/'
-		}
-	],
-	gold: [
-		{
-			src: `${base}/sponsorlogos/childrensnational.png`,
-			alt: "Children's National Logo",
-			href: 'https://childrensnational.org/'
 		}
 	],
 	silver: [
@@ -28,61 +22,16 @@ const sponsors = {
 	],
 	bronze: [
 		{
-			src: `${base}/sponsorlogos/collinsaero.png`,
-			alt: 'Collins Aerospace Logo',
-			href: 'https://www.collinsaerospace.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/blueridge.png`,
-			alt: 'Blue Ridge Networks Logo',
-			href: 'https://www.blueridgenetworks.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/alarmcom.png`,
-			alt: 'Alarm.com Logo',
-			href: 'https://alarm.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/daggeranalytics.png`,
-			alt: 'Dagger Analytics Logo',
-			href: 'https://www.daggeranalytics.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/mindpointgroup.png`,
-			alt: 'MindPoint Group Logo',
-			href: 'https://www.mindpointgroup.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/ultrapress.png`,
-			alt: 'UltraPress Logo',
-			href: 'https://ultrapress.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/mapbox.png`,
-			alt: 'Mapbox Logo',
-			href: 'https://www.mapbox.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/yext.png`,
-			alt: 'Yext Logo',
-			href: 'https://www.yext.com/'
+			src: `${base}/sponsorlogos/collegeramp.png`,
+			alt: 'College Ramp Logo',
+			href: 'https://www.collegeramp.org/'
 		}
 	],
 	prize: [
 		{
-			src: `${base}/sponsorlogos/echo3d.png`,
-			alt: 'echo3D Logo',
-			href: 'https://www.echo3d.co/'
-		},
-		{
-			src: `${base}/sponsorlogos/jetbrains.png`,
-			alt: 'JetBrains Logo',
-			href: 'https://www.jetbrains.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/replit.png`,
-			alt: 'Replit Logo',
-			href: 'https://replit.com/'
+			src: `${base}/sponsorlogos/quantinuum.png`,
+			alt: 'Quantinuum Logo',
+			href: 'https://www.quantinuum.com'
 		}
 	],
 	partners: [
