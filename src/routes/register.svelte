@@ -13,11 +13,11 @@
 		<p>
 			<!-- Participant registration will open on January 20, 2024 at 7:00 pm EST and will close on
 			February 3, 2024 at 11:59 pm EST. All attendees must adhere to the -->
-			Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
-			pm EST. All attendees must adhere to the
-			<!-- Registration for participants closed on February 3, 2024 at 11:59 pm EST. You may still register
+			<!-- Registration opened on January 20, 2024 at 7:00 pm EST and will close on February 3, 2024 at 11:59
+			pm EST. All attendees must adhere to the -->
+			Registration for participants closed on February 3, 2024 at 11:59 pm EST. You may still register
 			to be a mentor, judge, volunteer, photographer, or workshop host. All attendees must adhere to
-			the -->
+			the
 			<a
 				class="text-theme-100 hover:text-theme-200 underline"
 				href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
@@ -32,6 +32,7 @@
 				title="Participant"
 				link="https://forms.gle/8CZHKSg2csL9ufEh6"
 				linkText="Participant Registration"
+				closed
 			>
 				<p>
 					Participants must be current high school students in Northern Virginia. Computer science
