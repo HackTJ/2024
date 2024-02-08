@@ -25,6 +25,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/collegeramp.png`,
 			alt: 'College Ramp Logo',
 			href: 'https://www.collegeramp.org/'
+		},
+		{
+			src: `${base}/sponsorlogos/teoco.png`,
+			alt: 'TEOCO Logo',
+			href: 'https://www.teoco.com/'
 		}
 	],
 	prize: [
