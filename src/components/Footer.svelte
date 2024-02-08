@@ -4,15 +4,20 @@
 	import LogoLinkedIn from '@svicons/ionicons-solid/logo-linkedin.svelte';
 	import LogoTwitter from '@svicons/ionicons-solid/logo-twitter.svelte';
 	import LogoGithub from '@svicons/ionicons-solid/logo-github.svelte';
+	import Contact from '@svicons/ionicons-solid/mail.svelte';
 
 	let classNames = '';
 	export { classNames as class };
 </script>
 
 <div
-	class="py-8 px-8 md:px-12 w-full bg-theme-100 flex justify-end items-center text-blackberry-800 ${classNames}"
+	class="py-8 px-8 md:px-12 w-full bg-theme-100 sm:flex sm:justify-center sm:justify-end items-center text-blackberry-800 ${classNames}"
 >
-	<div class="ml-auto flex space-x-8">
+	<div class="flex justify-evenly space-x-4 sm:space-x-8 sm:ml-auto">
+		<a href="mailto:hello@hacktj.org" target="_blank" class="hover:text-blackberry-500"
+			>
+			<Contact width="30px" /></a
+		>
 		<a href="https://twitter.com/hacktjofficial" target="_blank" class="hover:text-blackberry-500"
 			><LogoTwitter width="30px" /></a
 		>
