@@ -55,8 +55,9 @@ let teamMembers = [
 		class: '2024',
 		years: 2,
 		director: false,
-		description: 'Sanika is a Senior at TJHSST, and is excited for her second year on the HackTJ team! She is passionate about connecting her interests, like neuroscience, with computer science to create projects for social good. Sanika shares her love of STEM by volunteering at local shelters and tutoring underprivileged kids. Outside of HackTJ, she spends her free time playing (and coaching!) volleyball, dancing to Bollywood songs, and watching Netflix shows.',
-		portraitSrc: `${base}/teamportraits/Sanika.JPG`,
+		description:
+			'Sanika is a Senior at TJHSST, and is excited for her second year on the HackTJ team! She is passionate about connecting her interests, like neuroscience, with computer science to create projects for social good. Sanika shares her love of STEM by volunteering at local shelters and tutoring underprivileged kids. Outside of HackTJ, she spends her free time playing (and coaching!) volleyball, dancing to Bollywood songs, and watching Netflix shows.',
+		portraitSrc: `${base}/teamportraits/Sanika.JPG`
 	},
 	{
 		name: 'Avni Garg',
