@@ -85,23 +85,23 @@ const scheduleItems = [
 
 	{
 		title: 'Hacking Ends',
-		time: dayjs('2/25/2024 08:00', timeFormat)
+		time: dayjs('2/25/2024 08:30', timeFormat)
 	},
 	{
 		title: 'Judging',
 		description:
 			'Judges will be going around each team by room, so make sure to stay in the vicinity of your room and be ready to present during the judging period.<br /><br />If you win: we’re going to choose 3 groups to present for 3 minutes each at the closing ceremony.  You can use slides if you’d like, or you can just talk to us. We will notify you if you are presenting at the ceremony around 30-45 minutes after judging ends.',
 		time: dayjs('2/25/2024 08:30', timeFormat),
-		end: dayjs('2/25/2024 11:00', timeFormat)
+		end: dayjs('2/25/2024 11:30', timeFormat)
 	},
 	{
 		title: 'Closing Ceremony',
-		time: dayjs('2/25/2024 11:30', timeFormat),
-		end: dayjs('2/25/2024 12:00', timeFormat)
+		time: dayjs('2/25/2024 12:00', timeFormat),
+		end: dayjs('2/25/2024 12:30', timeFormat)
 	},
 	{
 		title: 'Hackathon Ends',
-		time: dayjs('2/25/2024 12:00', timeFormat)
+		time: dayjs('2/25/2024 12:30', timeFormat)
 	}
 ];
 
