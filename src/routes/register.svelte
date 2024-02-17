@@ -61,7 +61,7 @@
 				linkText="Mentor/Judge Registration"
 			>
 				<p>
-					Judges must be present during the entire judging process (9:00 a.m. to 11:00 a.m. on
+					Judges must be present during the entire judging process (8:00 a.m. to 12:00 a.m. on
 					Sunday), but not necessarily during the entire hackathon. Computer science and engineering
 					experience is preferred but not required.
 				</p>
