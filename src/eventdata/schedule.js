@@ -45,6 +45,7 @@ const scheduleItems = [
 	},
 	{
 		title: 'Lunch',
+		description: 'Salads from Panera Bread and Sandwiches from Potbelly',
 		time: dayjs('2/24/2024 13:00', timeFormat),
 		end: dayjs('2/24/2024 14:00', timeFormat)
 	},
@@ -55,6 +56,7 @@ const scheduleItems = [
 	},
 	{
 		title: 'Dinner',
+		description: 'Pasta from Noodles & Company',
 		time: dayjs('2/24/2024 19:00', timeFormat),
 		end: dayjs('2/24/2024 20:00', timeFormat)
 	},
@@ -77,8 +79,7 @@ const scheduleItems = [
 	},
 	{
 		title: 'Breakfast',
-		description:
-			'Einstein Bros. Bagels: Honey, Blueberry, Chocolate Chip, Cinnamon Raisin, Plain, Everything<br /><br />Blueberry Muffins',
+		description: 'Einstein Bros. Bagels and Blueberry Muffins',
 		time: dayjs('2/25/2024 06:00', timeFormat),
 		end: dayjs('2/25/2024 08:00', timeFormat)
 	},
