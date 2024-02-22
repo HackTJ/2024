@@ -29,8 +29,8 @@ const scheduleItems = [
 	},
 	{
 		title: 'Team Building',
-		time: dayjs('2/24/2024 11:30', timeFormat),
-		end: dayjs('2/24/2024 12:00', timeFormat)
+		time: dayjs('2/24/2024 11:45', timeFormat),
+		end: dayjs('2/24/2024 12:15', timeFormat)
 	},
 	{
 		title: 'Submit Check-In Form',
