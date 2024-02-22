@@ -33,15 +33,15 @@ const scheduleItems = [
 		end: dayjs('2/24/2024 12:00', timeFormat)
 	},
 	{
+		title: 'Submit Check-In Form',
+		time: dayjs('2/24/2024 12:30', timeFormat)
+	},
+	{
 		title: 'Resources and Q&A for Beginners',
 		description:
 			'If you are a beginner or don’t know where to start, come ask some HackTJ team members general questions about the hackathon!',
-		time: dayjs('2/24/2024 12:15', timeFormat),
-		end: dayjs('2/24/2024 12:45', timeFormat)
-	},
-	{
-		title: 'Submit Check-In Form',
-		time: dayjs('2/24/2024 12:30', timeFormat)
+		time: dayjs('2/24/2024 12:30', timeFormat),
+		end: dayjs('2/24/2024 13:00', timeFormat)
 	},
 	{
 		title: 'Lunch',
