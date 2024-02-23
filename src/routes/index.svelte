@@ -9,6 +9,7 @@
 	import CloseButton from '../components/Index/CloseButton.svelte';
 	// import AboutCard from '../components/Index/AboutCard.svelte';
 	import Modal from 'svelte-simple-modal';
+	import { event, location, registration } from "../constants";
 	import { sponsorData, teamMembers } from '../eventdata';
 	import { googleMapsKey } from '../keys/.';
 
@@ -62,7 +63,7 @@
 			<div class="text-white font-bold text-6xl md:text-8xl">
 				HackTJ
 				<!-- TODO: `Overpass Mono`: -->
-				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">11.0</sup>
+				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">{event.iteration}</sup>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
 				<!-- <span class="text-theme-100 font-bold">March 4-5, Cvent</span>
@@ -70,11 +71,13 @@
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
 			<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
-				<a
-					href="{base}/register"
-					class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
-					>&emsp;Register&emsp;</a
-				>
+				{#if registration.isOpen}
+					<a
+						href="{base}/register"
+						class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+						>&emsp;Register&emsp;</a
+					>
+				{/if}
 				<a
 					href="{base}/schedule"
 					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
@@ -164,8 +167,8 @@
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
 				class="underline text-theme-100 hover:text-theme-200"
-				href="{base}/sponsorship11_0.pdf"
-				target="_blank">11.0 sponsorship packet</a
+				href="{base}/{event.sponsorshipPacket}"
+				target="_blank">{event.iteration} sponsorship packet</a
 			>
 			or email us at
 			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org"
@@ -206,12 +209,12 @@
 	>
 		<div class="w-full lg:w-2/3">
 			<h1 class="text-5xl md:text-7xl font-black text-white">Location</h1>
-			<h3 class="text-xl font-black text-white mt-3">Cvent HQ</h3>
+			<h3 class="text-xl font-black text-white mt-3">{location.name}</h3>
 			<h3 class="font-medium text-white mt-1">
-				1765 Greensboro Station Pl 7th Floor, McLean, VA 22102
+				{location.address}
 			</h3>
 			<a
-				href="https://goo.gl/maps/L23EwHCCucy7SjKf7"
+				href="{location.mapsLink}"
 				target="_blank"
 				rel="noopener noreferred"
 				class="block mt-4 text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl"

@@ -2,7 +2,7 @@
  * This File contains all information needed for the FAQ page
  */
 
-import { FAQCodeOfConduct, FAQPrizes, FAQRegister, FAQDeadline } from './FAQComponents';
+import { FAQCodeOfConduct, FAQDeadline, FAQPrizes, FAQRegister, FAQWhen } from './FAQComponents';
 
 /**
  * Each object should be in the format
@@ -19,7 +19,7 @@ export default [
 	},
 	{
 		question: 'When is HackTJ?',
-		answer: 'HackTJ will start on Saturday, February 24 and run until Sunday, February 25.'
+		answerComponent: FAQWhen,
 	},
 	{
 		question: 'Who can attend?',

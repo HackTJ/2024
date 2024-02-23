@@ -1,11 +1,14 @@
+<script>
+	import { registration } from "../../constants";
+</script>
+
 <p>
-	Registration for participants, judges, mentors, and volunteers opens on Saturday, January 20 at
-	7:00 PM.
+	Registration for participants, volunteers, mentors, judges, workshop hosts, and photographers opens on {registration.participant.open.format('dddd, MMMM D [at] h:mm a')}.
 </p>
 
 <p class="mt-2">
 	Registration for participants closes on <span class="font-bold"
-		>Saturday, February 3 at 11:59 PM</span
+		>{registration.participant.close.format('dddd, MMMM D [at] h:mm a')}</span
 	>—this is a hard deadline; we do not accept submissions after this time.
 </p>
 <p class="mt-2">
