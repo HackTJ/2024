@@ -1,9 +1,10 @@
 <script>
-	import { registration } from "../../constants";
+	import { registration } from '../../constants';
 </script>
 
 <p>
-	Registration for participants, volunteers, mentors, judges, workshop hosts, and photographers opens on {registration.participant.open.format('dddd, MMMM D [at] h:mm a')}.
+	Registration for participants, volunteers, mentors, judges, workshop hosts, and photographers
+	opens on {registration.participant.open.format('dddd, MMMM D [at] h:mm a')}.
 </p>
 
 <p class="mt-2">

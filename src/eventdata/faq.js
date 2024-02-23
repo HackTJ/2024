@@ -19,7 +19,7 @@ export default [
 	},
 	{
 		question: 'When is HackTJ?',
-		answerComponent: FAQWhen,
+		answerComponent: FAQWhen
 	},
 	{
 		question: 'Who can attend?',

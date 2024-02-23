@@ -9,7 +9,7 @@
 	import CloseButton from '../components/Index/CloseButton.svelte';
 	// import AboutCard from '../components/Index/AboutCard.svelte';
 	import Modal from 'svelte-simple-modal';
-	import { event, location, registration } from "../constants";
+	import { event, location, registration } from '../constants';
 	import { sponsorData, teamMembers } from '../eventdata';
 	import { googleMapsKey } from '../keys/.';
 
@@ -63,7 +63,9 @@
 			<div class="text-white font-bold text-6xl md:text-8xl">
 				HackTJ
 				<!-- TODO: `Overpass Mono`: -->
-				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">{event.iteration}</sup>
+				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100"
+					>{event.iteration}</sup
+				>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
 				<!-- <span class="text-theme-100 font-bold">March 4-5, Cvent</span>
@@ -214,7 +216,7 @@
 				{location.address}
 			</h3>
 			<a
-				href="{location.mapsLink}"
+				href={location.mapsLink}
 				target="_blank"
 				rel="noopener noreferred"
 				class="block mt-4 text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl"

@@ -1,10 +1,11 @@
 <script>
-	import { registration } from "../../constants";
+	import { registration } from '../../constants';
 </script>
 
 <ol class="list-decimal">
 	<li>
-		On {registration.participant.open.format('dddd, MMMM D [at] h:mm a')}, a button will appear at the top of this site. Click it.
+		On {registration.participant.open.format('dddd, MMMM D [at] h:mm a')}, a button will appear at
+		the top of this site. Click it.
 	</li>
 	<li class="mt-2">You will be redirected to a page where you can click the appropriate form.</li>
 	<li class="mt-2">
