@@ -37,6 +37,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/quantinuum.png`,
 			alt: 'Quantinuum Logo',
 			href: 'https://www.quantinuum.com'
+		},
+		{
+			src: `${base}/sponsorlogos/venturecamp.png`,
+			alt: 'Venture Camp Logo',
+			href: ''
 		}
 	],
 	partners: [
