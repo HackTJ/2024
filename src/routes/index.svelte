@@ -42,7 +42,7 @@
 </svelte:head>
 
 <Navbar {navItems} />
-<a
+<!-- <a
 	id="mlh-trust-badge"
 	style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
 	href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
@@ -52,7 +52,7 @@
 		alt="Major League Hacking 2024 Hackathon Season"
 		style="width:100%"
 	/></a
->
+> -->
 <!-- Home screen -->
 <div class="h-[calc(100vh_-_8rem)] min-h-[512px]">
 	<div
